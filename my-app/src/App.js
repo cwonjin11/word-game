@@ -14,7 +14,7 @@ const App =() => {
         params: {level: chosenLevel, area: 'sat'},
         headers: {
           'x-rapidapi-host': 'twinword-word-association-quiz.p.rapidapi.com',
-          'x-rapidapi-key': '836268395cmsh163fbcace64cb88p1bc077jsn8123ab654b66'
+          'x-rapidapi-key': process.env.REACT_APP_RAPID_API_KEY
         }
       }
   
